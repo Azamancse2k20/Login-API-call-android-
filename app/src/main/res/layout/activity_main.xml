@@ -5,52 +5,77 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:layout_margin="20dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+
 
     <TextView
         android:id="@+id/registrationId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Registration Page"
-        android:textColor="#54DF0B"
+        android:text="Fhont Page"
+        android:textColor="#17DD17"
         android:textSize="30sp"
         android:layout_gravity="center"
         android:layout_marginBottom="30dp"
         />
 
-<EditText
-    android:id="@+id/nameId"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:hint="User name"
-    />
-    <EditText
-        android:id="@+id/numberId"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Phone number"
-        />
-    <EditText
-        android:id="@+id/passId"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        />
 
-    <Button
-        android:id="@+id/loginButtonId"
-        android:layout_width="200dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:textColor="#FDFCFC"
-        android:layout_gravity="center"
-        android:backgroundTint="#11E21A"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="20dp"
-        />
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <EditText
+            android:id="@+id/nameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User name"
+            />
+        <EditText
+            android:id="@+id/numberId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            />
+        <EditText
+            android:id="@+id/passId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            />
+
+        <Button
+            android:id="@+id/signUpId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:textColor="#FDFCFC"
+            android:layout_gravity="center"
+            android:backgroundTint="#11E21A"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/loginbtnId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="logIn"
+            android:textColor="#FDFCFC"
+            android:layout_gravity="center"
+            android:backgroundTint="#206EC2"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+
+    </LinearLayout>
 
 
 </LinearLayout>

@@ -5,28 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:layout_margin="20dp"
     tools:context=".WelcomeActivity">
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome Page"
-        android:textSize="30sp"
-        android:textColor="#E719CC"
+       android:text="Welcome Activity"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_marginBottom="30dp"
+        android:textSize="30sp"
+        android:textColor="#18DF39"
+        android:textStyle="bold"
         />
 
-    <Button
-        android:id="@+id/LogoutbtnId"
-        android:layout_width="150dp"
+    <TextView
+        android:id="@+id/welcomeId"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Logout"
-        android:background="#673AB7"
+        android:text=" "
+        android:scrollbarSize="20sp"
         />
+
 
 </LinearLayout>
